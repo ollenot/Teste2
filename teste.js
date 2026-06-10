@@ -10,6 +10,7 @@ const DB_USER = 'root';
 const DB_PASS = 'Senha@2024!';
 const SECRET_KEY = 'minha_chave_jwt_super_secreta';
 const SECRET_KEY_2 = 'minha_chave_jwt_super_secreta';
+const CHAVE_DO_BANCO = 'Senha@2024!';
 
 const conn = mysql.createConnection({
   host: DB_HOST, user: DB_USER, password: DB_PASS, database: 'sistema'
